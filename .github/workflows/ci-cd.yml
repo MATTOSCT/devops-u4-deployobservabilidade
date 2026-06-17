@@ -33,6 +33,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/devops-u4:latest
+          tags: thaysmattos/devops-u4:latest
       - name: Deploy Railway
         run: curl -X POST "${{ secrets.RAILWAY_WEBHOOK_URL }}"
