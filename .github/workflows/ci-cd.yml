@@ -34,5 +34,4 @@ jobs:
           context: .
           push: true
           tags: thaysmattos/devops-u4:latest
-      - name: Deploy Railway
-        run: curl -X POST "${{ secrets.RAILWAY_WEBHOOK_URL }}"
+      
